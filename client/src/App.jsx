@@ -1,14 +1,13 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <div className=" flex flex-col items-center ">
+      <div className=" w-full h-1 m-10 bg-slate-200"></div>
+      <h2 className=" text-center text-sm font-bold text-blue-700">
+        March 12, 2022
+      </h2>
+    </div>
+
   )
 }
 
