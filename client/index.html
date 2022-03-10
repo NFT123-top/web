@@ -3,22 +3,20 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/src/logo-color.svg" />
+  <link rel="icon" type="image/svg+xml" href="/img/logo-color.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://cdn.tailwindcss.com"></script>
   <title>Welcome</title>
 </head>
 
-<body>
-  <div class=" flex flex-col items-center">
-    <h1 class=" text-3xl font-bold m-10 text-blue-700">
-      We are coming!
-    </h1>
-    <img src="/src/logo-color.svg" alt="">
-  </div>
-
-  <div id="root"></div>
+<body class="text-align:center">
+  <div id="root" class="main"></div>
   <script type="module" src="/src/main.jsx"></script>
 </body>
+<style>
+  .main {
+    margin: 0 auto;
+    max-width: 1536px; /* max screen*/
+  }
+</style>
 
 </html>
