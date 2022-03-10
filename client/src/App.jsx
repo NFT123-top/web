@@ -1,4 +1,4 @@
-import  { Navbar, Welcome, CardList } from './components';
+import  { Navbar, Welcome, MarketList } from './components';
 import './index.css';
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
     <div className=""> 
       <Navbar />
       <Welcome />
-      <CardList />
+      <MarketList />
     </div>
 
   )
