@@ -17,7 +17,7 @@ export default function ({ card }) {
   // console.log(card);
   return (
 
-    <a href={card.hrefUrl}>
+    <a href={card.hrefUrl} target="_blank">
       <div className="flex flex-row items-center px-4 py-2 space-x-3 cursor-pointer select-none
          hover:bg-gray-100">
         <div className="w-10 text-2xl font-bold text-right text-gray-400">#{card.order}
