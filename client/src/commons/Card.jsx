@@ -48,7 +48,7 @@ export default function ({ card }) {
     </div>
     )
 }
-// Cart type 1
+// Card type 1
 {/* <a href="https://www.nftworlds.com/" target="_blank" class="flex items-center m-4 gap-2">
   <img class="w-12 h-auto" src="https://s3.coinmarketcap.com/generated/nft/collections/raritysniper-nft-worlds.png" />
   <div class="text-gray-700 text-left font-sans font-semibold">

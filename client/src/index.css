@@ -9,6 +9,9 @@
   .btn-second {
     @apply py-2 px-4 bg-gray-600 text-white text-sm rounded-full shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
   }
+  .bg-card{
+    @apply transition-all bg-white
+  }
 }
 
 .App {

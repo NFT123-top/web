@@ -1,24 +1,32 @@
 import React from 'react';
+import Card1 from '../commons/Card1';
+import collectionList from '../data/collection';
 // import PropTypes from 'prop-types';
 
 const CollectionList = props => {
   return (
     <div className="mx-4 ">
       Top 10 {props.first}
-      <div className="grid grid-cols-2 mt-1 gap-6 ">
-        <div className="max-w-full mx-auto p-4 bg-white rounded-xl shadow-md overflow-hidden">
-          <div className="md:flex">
-            <div className="md:shrink-0">
-              <img className=" " src="https://lh3.googleusercontent.com/lHexKRMpw-aoSyB1WdFBff5yfANLReFxHzt1DOj_sg7mS14yARpuvYcUtsyyx-Nkpk6WTcUPFoG53VnLJezYi8hAs0OxNZwlw6Y-dmI=s130" alt="Man looking at item at a store" />
-            </div>
-            <div className="p-1">
-              <div className="uppercase tracking-wide text-sm text-fuchsia-600 font-semibold">Mutant Ape Yacht Club</div>
-              <a href="#" className="block mt-1 text-md leading-tight font-medium text-blue-600 hover:underline">Finding customers for your new business</a>
-              <p className="mt-2 text-sm text-slate-500">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
-            </div>
-          </div>
+      <div className="flex flex-row flex-wrap justify-center">
+        <div className="pt-4 pb-3 mt-4 border border-gray-300 rounded-lg shadow-md dark:border-gray-800 ml-4 bg-card">
+          <h2 className="mb-3 px-4 text-lg font-extrabold text-blue-600 ">Total Volume</h2>
+          {collectionList.map((card1) => (
+            <Card1 card={card1} key={card1.order} />
+          ))}
         </div>
-       
+        <div className="pt-4 pb-3 mt-4 border border-gray-300 rounded-lg shadow-md dark:border-gray-800 ml-4 bg-card">
+          <h2 className="mb-3 px-4 text-lg font-extrabold text-blue-600 ">7 Day Hot</h2>
+          {collectionList.map((card1) => (
+            <Card1 card={card1} key={card1.order} />
+          ))}
+        </div>
+        <div className="pt-4 pb-3 mt-4 border border-gray-300 rounded-lg shadow-md dark:border-gray-800 ml-4 bg-card">
+          <h2 className="mb-3 px-4 text-lg font-extrabold text-blue-600 ">7 Day New</h2>
+          {collectionList.map((card1) => (
+            <Card1 card={card1} key={card1.order} />
+          ))}
+        </div>
+
       </div>
     </div>
   );
