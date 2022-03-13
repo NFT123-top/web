@@ -11,6 +11,11 @@ let img = "../../img/logo.svg"
 //     imageAlt: 'OpenSea is the world\'s first and largest NFT marketplace, Discover, collect, and sell extraordinary NFTs.'
 //   },
 // ]
+const button = {
+  className="px-4 py-1 mt-2 text-sm text-blue-600 font-semibold rounded-full border 
+         border-blue-200 hover:text-white hover:bg-blue-600 hover:border-transparent 
+         focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
+}
 
 export default function ({ card }) {
   // console.log(card);
@@ -39,11 +44,11 @@ export default function ({ card }) {
         </div>
       </div>
       <div className="flex justify-between mx-8 my-2">
-        {/* <button className="py-1 mt-2 text-sm text-white bg-purple-600 rounded-full hover:text-white hover:bg-purple-600 hover:border-transparent 
+        {/* <button className="py-1 mt-2 text-sm text-white bg-purple-600 rounded-full hover:text-white 
+        hover:bg-purple-600 hover:border-transparent 
          focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">HOT</button> */}
-        <button className="px-4 py-1 mt-2 text-sm text-blue-600 font-semibold rounded-full border
-         border-blue-200 hover:text-white hover:bg-blue-600 hover:border-transparent 
-         focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2">Enter</button>
+         <a href="" className=""></a>
+        <button onclick="window.location.href={}" >Enter</button>
       </div>
     </div>
     )
