@@ -1,9 +1,10 @@
 import React from 'react';
+import img from "../../img/logo-color-sm.svg"
+import img1 from "../../img/logo-color.svg"
 
 let content_1 = "All of the icons we use in Tailw  ";
 let content_2 = "All of the icoasd ad asd asghgf ns we usegasd asd aasdfasd asd asd1212g sd adsasd a in Tailw ";
-let img = "../../img/logo-color-sm.svg"
-let img1 = "../../img/logo-color.svg"
+
 const Welcome = () => {
   return (
     <div className="p-1 flex flex-col sm:flex-row items-center justify-start ">

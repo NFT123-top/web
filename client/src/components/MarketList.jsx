@@ -1,8 +1,6 @@
 import React from 'react';
 import Card from '../commons/Card';
 import marketList from "../data/market";
-let img = "../../img/logo.svg"
-
 
 // const Card = ({ card }) => (
 //   <div className="flex items-center rounded-lg shadow-lg overflow-hidden">
@@ -19,9 +17,9 @@ let img = "../../img/logo.svg"
 
 const MarketList = () => {
   return (
-    <div className="mx-4 divide-y divide-gray-300">
-      <h2 className="text-lg text-gray-900">Market List</h2>
-      <div className=" mt-1 grid grid-cols-3 gap-6 ">
+    <div className="mx-4 divide-y divide-gray-300 pt-3">
+      <h2 className="text-3xl pb-2 text-gray-900">MarketPlace </h2>
+      <div className=" mt-1 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-6 ">
         {marketList.map((card) => (
           <Card card={card} key={card.name} />
         ))}
