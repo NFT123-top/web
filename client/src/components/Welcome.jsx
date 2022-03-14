@@ -8,8 +8,8 @@ let content_2 = "Collect the most valueable Websites, News, Projects and so on i
 
 const Welcome = () => {
   return (
-    <div className="text-white" >
-      <div className="flex flex-col sm:flex-row items-center justify-center ">
+    <div className="text-white pt-4" >
+      <div className="flex flex-col sm:flex-row items-start justify-center gap-16">
         <div className="flex flex-col items-start sm:w-1/3 justify-center gap-3">
           <div className="flex flex-1 justify-center items-center flex-row md:max-w-md">
             {/* <img className="w-12" src={img} alt="" /> */}
@@ -32,23 +32,48 @@ const Welcome = () => {
             <button className="btn-second"> Save changes</button> */}
           </div>
         </div>
-        <div className="flex justify-end  items-center">
-          {/* <img className=" " src={img1} alt="" /> */}
-          <div className=" pr-1 flex flex-col items-end">
-              <span>All Projects</span>
-              <span>1309</span>
+        <div className="">
+          <div className="pb-4 text-xl">
+            Stastics in Plantform
           </div>
-          <div className=" pr-1 flex flex-col items-end">
-              <span>All Projects</span>
-              <span>1309</span>
+          <div className="flex justify-end items-start space-x-6 h-20 font-sans ">
+            {/* <img className=" " src={img1} alt="" /> */}
+            <div className="pr-1 flex flex-col items-end">
+              <span className=" text-blue-200 text-sm">Markets</span>
+              <div className="flex items-center space-x-1">
+                <span className="text-white text-2xl">53</span>
+                <span className="bg-blue-300 rounded-md px-1 text-sm font-thin" >3D</span>
+                <span className=" text-green-400 font-bold">+2</span>
+              </div>
+            </div>
+            <div className=" pr-1 flex flex-col items-end">
+              <span className=" text-blue-200 text-sm">Collections</span>
+              <div className="flex items-center space-x-1">
+                <span className="text-white text-2xl">1423</span>
+                <span className="bg-blue-300 rounded-md px-1 text-sm font-thin" >24H</span>
+                <span className=" text-green-400 font-bold">+32</span>
+              </div>
+            </div>
+            <div className=" pr-1 flex flex-col items-end">
+              <span className=" text-blue-200 text-sm">Artists</span>
+              <div className="flex items-center space-x-1">
+                <span className="text-white text-2xl">153</span>
+                <span className="bg-blue-300 rounded-md px-1 text-sm font-thin" >3D</span>
+                <span className=" text-green-400 font-bold">+35</span>
+              </div>
+            </div>
+            <div className=" pr-1 flex flex-col items-end">
+              <span className=" text-blue-200 text-sm">Tools</span>
+              <div className="flex items-center space-x-1">
+                <span className="text-white text-2xl">13</span>
+                <span className="bg-blue-300 rounded-md px-1 text-sm font-thin" >3D</span>
+                <span className=" text-green-400 font-bold">+0</span>
+              </div>
+            </div>
           </div>
-          <div className=" pr-1 flex flex-col items-end">
-              <span>All Projects</span>
-              <span>1309</span>
-          </div>
-          <div className=" pr-1 flex flex-col items-end">
-              <span>All Projects</span>
-              <span>1309</span>
+          <div className="h-72 bg-yellow-50 justify-items-center items-center flex flex-col">
+            <img className="h-64 w-64" src={img1} alt="" />
+            <span className=" text-blue-600">This is a video of product</span>
           </div>
         </div>
       </div>
