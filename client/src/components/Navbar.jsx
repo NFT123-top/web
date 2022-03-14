@@ -33,19 +33,21 @@ const NavbarItem = ({index, item }) => (
 
 const Navbar = () => {
   return (
-    <nav className="flex-1 flex justify-between items-center m-4 px-3 bg-blue-600 ">
-      <div className="flex-shrink-0 flex items-center py-2">
-        <img className="block h-18  w-auto" src={logo} alt="nft123.top" />
-        <p className="font-extrabold text-white">NFT123</p>
-      </div>
-      <ul className="hidden sm:flex items-center text-sm space-x-2">
-        {/* add key index is resolve warning */}
-        {navigation.map((item, index) => ( <NavbarItem  key={index} item={item}></NavbarItem>))}
-        <button className="bg-white text-blue-600 rounded-full text-sm py-1 cursor-pointer
-          hover:-translate-y-0.5 transform transition shadow-blue-800 px-3 "> START </button>
-      </ul>
-    </nav>
-  )
+    <div className="">
+      <nav className="flex-1 flex justify-between items-center py-3 px-6">
+        <div className="flex-shrink-0 flex items-center py-2 gap-1">
+          <img className="block h-14 w-auto" src={logo} alt="nft123.top" />
+          <p className="font-bold text-white">NFT123</p>
+        </div>
+        <ul className="hidden sm:flex items-center text-sm space-x-2">
+          {/* add key index is resolve warning */}
+          {navigation.map((item, index) => ( <NavbarItem  key={index} item={item}></NavbarItem>))}
+          <button className="bg-white text-blue-600 rounded-full text-sm py-1 cursor-pointer
+            hover:-translate-y-0.5 transform transition shadow-blue-800 px-3 "> START </button>
+        </ul>
+      </nav>
+    </div>
+        )
 }
 
 export default Navbar;

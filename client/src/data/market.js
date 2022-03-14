@@ -57,4 +57,32 @@ export default [
     hrefUrl: 'https://www.coinbase.com/nft/announce',
     imageAlt: ' ',
   },
+  {
+    name: "Foundation",
+    desc: 'Build a new creative economy—a world where creators can use the Ethereum blockchain to value their work in entirely new ways, and build stronger connections with their supporters.',
+    imgUrl: "https://pbs.twimg.com/profile_images/1382812824548691968/2ali5jb7_400x400.jpg",
+    hrefUrl: 'https://foundation.app/',
+    imageAlt: ' ',
+  },
+  {
+    name: "Niftygateway",
+    desc: 'An all-in-one platform that makes it easy to buy, sell, and store digital art and collectibles',
+    imgUrl: "https://pbs.twimg.com/profile_images/1493695753990152194/IhmNLRMK_400x400.png",
+    hrefUrl: 'https://niftygateway.com/',
+    imageAlt: ' ',
+  },
+  {
+    name: "Larva Labs",
+    desc: 'Creators of the Cryptopunks, Autoglyphs and Meebits',
+    imgUrl: "https://pbs.twimg.com/profile_images/630765282219438080/d8kY-ecm_400x400.png ",
+    hrefUrl: 'https://www.larvalabs.com/',
+    imageAlt: ' ',
+  },
+  {
+    name: "NBA Top Shot",
+    desc: 'Creators of the Cryptopunks, Autoglyphs and Meebits',
+    imgUrl: "https://pbs.twimg.com/profile_images/1473493606748942338/l-Q8oVDV_400x400.png ",
+    hrefUrl: 'https://nbatopshot.com/',
+    imageAlt: ' ',
+  },
 ];

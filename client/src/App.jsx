@@ -4,8 +4,11 @@ import './index.css';
 function App() {
   return (
     <div className="">
+      <div className="gradient-bg-welcome">
+        
       <Navbar />
       <Welcome />
+      </div>
       <MarketList />
       <CollectionList first=" world" />
       <Tools />
