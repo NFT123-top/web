@@ -85,4 +85,10 @@ export default [
     hrefUrl: 'https://nbatopshot.com/',
     imageAlt: ' ',
   },
+  {
+    name: 'NFTrade',
+    hrefUrl: 'https://nftrade.com',
+    desc: 'NFTrade is the first cross-chain and blockchain-agnostic NFT platform',
+    imgUrl: 'https://nftrade.com/img/farms/icon.png',
+  },
 ];
