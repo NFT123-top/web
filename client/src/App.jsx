@@ -1,4 +1,4 @@
-import { Navbar, Welcome, MarketList, CollectionList, Tools, Footer } from './components';
+import { Navbar, Welcome, Overview,  MarketList, CollectionList, Tools, Footer } from './components';
 import './index.css';
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <Navbar />
       <Welcome />
       </div>
+      <Overview />
       <MarketList />
       <CollectionList first=" world" />
       <Tools />

@@ -71,6 +71,9 @@ const Welcome = () => {
               </div>
             </div>
           </div>
+       
+ 
+        
           <div className="h-72 bg-yellow-50 justify-items-center items-center flex flex-col">
             <img className="h-64 w-64" src={img1} alt="" />
             <span className=" text-blue-600">This is a video of product</span>

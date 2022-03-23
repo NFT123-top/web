@@ -65,9 +65,9 @@ export default [
   },
   {
     name: 'Tatum',
-    hrefUrl: 'https://pbs.twimg.com/profile_images/1349315440707833857/FVio6cQy_400x400.png',
+    hrefUrl: 'https://tatum.io/',
     desc: 'Tatum is the fastest way to develop blockchain apps.',
-    imgUrl: '"We believe blockchain is the future and developing blockchain apps should be easy."',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1349315440707833857/FVio6cQy_400x400.png',
   },
   {
     name: 'NFTnow',

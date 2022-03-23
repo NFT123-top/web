@@ -11,7 +11,7 @@ export default function ({ card }) {
         </div>
         <div>
           <div className="text-lg font-medium text-black">{card.name}</div>
-          <p className="text-slate-500 text-sm">{card.desc}</p>
+          <p className="text-slate-500 h-16 text-sm overflow-hidden">{card.desc}</p>
         </div>
       </div>
       <div className="flex justify-between mx-4 my-2">

@@ -16,10 +16,10 @@
   }
 }
 .gradient-bg-welcome {
-  height: 640px;
+  height: 100%;
   background-color:#FFF;
   background-image:  url(../img/homebeijing.jpeg);
-  background-size: 100% 640px;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 .App {
