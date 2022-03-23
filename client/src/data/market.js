@@ -74,7 +74,7 @@ export default [
   {
     name: "Larva Labs",
     desc: 'Creators of the Cryptopunks, Autoglyphs and Meebits',
-    imgUrl: "https://pbs.twimg.com/profile_images/630765282219438080/d8kY-ecm_400x400.png ",
+    imgUrl: "https://pbs.twimg.com/profile_images/1485574615841886214/gF2WO9uR_400x400.jpg",
     hrefUrl: 'https://www.larvalabs.com/',
     imageAlt: ' ',
   },
