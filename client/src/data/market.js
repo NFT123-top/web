@@ -65,11 +65,17 @@ export default [
     imageAlt: ' ',
   },
   {
-    name: "Niftygateway",
+    name: "Nifty Gateway",
     desc: 'An all-in-one platform that makes it easy to buy, sell, and store digital art and collectibles',
     imgUrl: "https://pbs.twimg.com/profile_images/1493695753990152194/IhmNLRMK_400x400.png",
     hrefUrl: 'https://niftygateway.com/',
     imageAlt: ' ',
+  },
+  {
+    name: 'Refinable',
+    hrefUrl: 'https://refinable.com/',
+    desc: 'Multichain NFT marketplace on Ethereum, BNBChain, Polygon and Solana',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1503455860563279873/I9HYWTAN_400x400.jpg',
   },
   {
     name: "Larva Labs",

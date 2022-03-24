@@ -13,14 +13,14 @@ let imglogo = "../../img/logo-color-sm.svg"
 // }];
 
 
-export default function ({ card }) {
+export default function ({ card}) {
   // console.log(card);
   return (
 
     <a href={card.hrefUrl} target="_blank">
       <div className="flex flex-row items-center px-4 py-2 space-x-3 cursor-pointer select-none
          hover:bg-gray-100">
-        <div className="w-10 text-2xl font-bold text-right text-gray-400">#{card.order}
+        {/* <div className="w-10 text-2xl font-bold text-right text-gray-400">#{card.order}
         </div>
         <div className="">
           <img src={card.imgUrl} className="w-16 h-auto rounded-full" alt="" />
@@ -32,7 +32,7 @@ export default function ({ card }) {
           <div className="text-sm font-bold text-rose-600">{card.floorPrice} ETH
 
           </div>
-        </div>
+        </div> */}
       </div>
     </a>
 
