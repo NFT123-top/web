@@ -23,4 +23,22 @@ export default [
     desc: 'We bring culture defining fashion brands into the metaverse.',
     imgUrl: '../../img/altava.png',
   },
+  {
+    name: 'Cryptovoxels',
+    hrefUrl: 'https://www.cryptovoxels.com/',
+    desc: 'Cryptovoxels is a virtual world and metaverse, powered by the Ethereum blockchain. ',
+    imgUrl: '../../img/cryptovoxels.jpg',
+  },
+  {
+    name: 'NFT Worlds',
+    hrefUrl: 'https://nftworlds.com/',
+    desc: 'Create, play, explore, and earn with others in the largest multi-metaverse in existence.',
+    imgUrl: '../../img/nftworlds.jpg'
+  },
+  {
+    name: 'Worldwide',
+    hrefUrl: 'https://www.webb.game/',
+    desc: '',
+    imgUrl: '../../img/WorldwideWebb.png',
+  },
 ]

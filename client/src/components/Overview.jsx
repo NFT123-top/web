@@ -7,8 +7,12 @@ import game from "../data/game";
 import collection from "../data/collection";
 import metaverse from "../data/metaverse";
 import art from "../data/art";
+import ip from "../data/ip";
+import defi from "../data/defi";
 import sport from '../data/sport';
+import analysis from '../data/analysis';
 import infrastructure from '../data/infrastructure'
+
 
 const overviewData =
 {
@@ -20,10 +24,10 @@ const overviewData =
   sportsCell: { id: 2, title: 'Sport', element: sport },
   musicCell: { id: 2, title: 'Music', element: music },
   artCell: { id: 2, title: 'Science & Art', element: art},
-  ipCell: { id: 2, title: 'Tradinal IP', element: [{}] },
+  ipCell: { id: 2, title: 'Hot IP', element: ip },
   utilityCell: { id: 2, title: 'Utility', element:tools},
-  analysisCell: { id: 2, title: 'Analysis', element: [{}] },
-  defiCell: { id: 2, title: 'Defi', element: [{}] },
+  analysisCell: { id: 2, title: 'Analysis', element: analysis },
+  defiCell: { id: 2, title: 'Defi', element: defi },
   metaverseCell: { id: 2, title: 'Metaverse', element: metaverse},
 
 };

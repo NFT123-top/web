@@ -57,4 +57,10 @@ export default [
     desc: '',
     imgUrl: '../../img/muri.png'
   },
+  {
+    name: 'CrypToadz',
+    hrefUrl: 'https://www.cryptoadz.io',
+    desc: 'Created by Gremplin, with a small bit of help from his friends.',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1434116683233480707/PdHPfUMT_400x400.jpg',
+  },
 ]

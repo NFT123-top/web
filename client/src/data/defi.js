@@ -1,9 +1,15 @@
 export default [
   {
-    name: 'GNSS',
-    hrefUrl: 'https://mgxs.co/',
-    desc: ' GNSS is a Procedural and Generative Art project, where each being is unique and exclusive',
-    imgUrl: 'https://pbs.twimg.com/profile_images/1496048681308536836/wkcPGhFU_400x400.jpg',
+    name: 'Dego',
+    hrefUrl: 'https://dego.finance/',
+    desc: 'Decentralized Finance with Sustainability.',
+    imgUrl: '../../img/dego_finance.png',
+  },
+  {
+    name: 'NFTX',
+    hrefUrl: 'https://nftx.io/',
+    desc: 'The liquidity protocol for NFTs.',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1361317805384216579/4iIrKAKu_400x400.jpg',
   },
   {
     name: '',

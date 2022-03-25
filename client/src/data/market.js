@@ -37,6 +37,12 @@ export default [
     imageAlt: ' .',
   },
   {
+    name: 'Treasureland',
+    hrefUrl: 'https://treasureland.market/',
+    desc: 'Treasureland is a cross-chain NFT platform for NFT issuance, NFT trading, NFT collections and tailored in-shop services.',
+    imgUrl: '../../img/treasureland.png',
+  },
+  {
     name: "Rarible",
     desc: 'Multichain community-centric NFT marketplace.',
     imgUrl: "https://pbs.twimg.com/profile_images/1486407481530200068/Cmt9k3gi_400x400.jpg",
