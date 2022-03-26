@@ -52,4 +52,16 @@ export default [
     desc: 'Get the latest rarity rankings and see them on listings on the marketplace',
     imgUrl: 'https://pbs.twimg.com/profile_images/1443835905681338380/Vaf9kNQq_400x400.jpg',
   },
+  {
+    name: 'RaritySniper',
+    hrefUrl: 'https://raritysniper.com/',
+    desc: 'The #1 source for NFT Rarity. 1250+ verified collection rankings on #Ethereum, #Solana & more!',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1484400093583314945/UzE0HueO_400x400.jpg',
+  },
+  {
+    name: 'RarityTools',
+    hrefUrl: 'https://rarity.tools/',
+    desc: 'Find the rarity ranking of your next NFT!',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1386583814332305412/BeKFg2UJ_400x400.jpg',
+  },
 ]

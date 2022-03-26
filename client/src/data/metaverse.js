@@ -41,4 +41,10 @@ export default [
     desc: '',
     imgUrl: '../../img/WorldwideWebb.png',
   },
+  {
+    name: 'Dogami',
+    hrefUrl: 'https://dogami.com/',
+    desc: 'The World’s First Petaverse: Adopt, Raise & Earn $DOGA 🐾 1st NFT drop SOLD OUT #Tezos',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1484240271118376973/eWKgi1pi_400x400.jpg',
+  },
 ]
