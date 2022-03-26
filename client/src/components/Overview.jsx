@@ -11,8 +11,13 @@ import ip from "../data/ip";
 import defi from "../data/defi";
 import sport from '../data/sport';
 import analysis from '../data/analysis';
-import infrastructure from '../data/infrastructure'
+import infrastructure from '../data/infrastructure';
+import edu from '../data/edu';
+import domain from '../data/domain';
+import dev from '../data/dev';
+import socail from '../data/socail';
 
+const defaultImg = '../../img/logo-color-sm.svg'
 
 const overviewData =
 {
@@ -20,7 +25,7 @@ const overviewData =
   infrastructureCell: { id: 1, title: 'Infrastructure', element: infrastructure},
   collectionCell: { id: 2, title: 'Collectibles', element: collection },
   gameCell: { id: 2, title: 'Games', element:game },
-  socialCell: { id: 2, title: 'Socail', element: [{}] },
+  socialCell: { id: 2, title: 'Socail', element: socail },
   sportsCell: { id: 2, title: 'Sport', element: sport },
   musicCell: { id: 2, title: 'Music', element: music },
   artCell: { id: 2, title: 'Science & Art', element: art},
@@ -29,7 +34,9 @@ const overviewData =
   analysisCell: { id: 2, title: 'Analysis', element: analysis },
   defiCell: { id: 2, title: 'Defi', element: defi },
   metaverseCell: { id: 2, title: 'Metaverse', element: metaverse},
-
+  eduCell:{id:44, title:'Learn', element: edu},
+  domainCell:{id:44, title:'Domain', element: domain},
+  devCell:{id:44, title:'Development', element: dev},
 };
 
 function Element(props) {
@@ -41,7 +48,7 @@ function Element(props) {
         element.map((item) => (
           <a href={item.hrefUrl} target="_blank">
             <div className="flex flex-col items-center w-14">
-              <img className="hover:scale-105 rounded-full" src={item.imgUrl} alt="" />
+              <img className="hover:scale-110 rounded-full" src={item.imgUrl || defaultImg} alt="" />
               <span className="text-gray-600 text-sm text-center font-thin h-6 overflow-hidden">{item.name}</span>
             </div>
           </a>
@@ -79,6 +86,7 @@ const Overview = () => {
           <EachCell cell={overviewData.gameCell}></EachCell>
           <EachCell cell={overviewData.musicCell}></EachCell>
           <EachCell cell={overviewData.sportsCell}></EachCell>
+          <EachCell cell={overviewData.eduCell}></EachCell>
         </div>
         <div className="col-span-3">
           <div className="flex flex-col">
@@ -108,8 +116,8 @@ const Overview = () => {
       </div>
       <div className="sm:grid sm:grid-cols-3">
         <EachCell cell={overviewData.infrastructureCell}></EachCell>
-        {/* <EachCell cell={overviewData.utilityCell}></EachCell>
-        <EachCell cell={overviewData.analysisCell}></EachCell> */}
+        <EachCell cell={overviewData.domainCell}></EachCell>
+        <EachCell cell={overviewData.devCell}></EachCell>
       </div>
     </div>
   );

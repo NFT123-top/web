@@ -1,12 +1,48 @@
 export default [
   {
-    name: 'GNSS',
-    hrefUrl: 'https://mgxs.co/',
-    desc: ' GNSS is a Procedural and Generative Art project, where each being is unique and exclusive',
-    imgUrl: 'https://pbs.twimg.com/profile_images/1496048681308536836/wkcPGhFU_400x400.jpg',
+    name: 'Art Blocks',
+    hrefUrl: '',
+    desc: '',
+    imgUrl: '',
   },
   {
-    name: '',
+    name: 'Hashmasks',
+    hrefUrl: '',
+    desc: '',
+    imgUrl: '',
+  },
+  {
+    name: 'Mathcaslos',
+    hrefUrl: '',
+    desc: '',
+    imgUrl: '',
+  },
+  {
+    name: 'Karfuru',
+    hrefUrl: '',
+    desc: '',
+    imgUrl: '',
+  },
+  {
+    name: 'BrainDrops',
+    hrefUrl: '',
+    desc: '',
+    imgUrl: '',
+  },
+  {
+    name: 'Autoglyphs',
+    hrefUrl: '',
+    desc: '',
+    imgUrl: '',
+  },
+  {
+    name: 'Avastars',
+    hrefUrl: '',
+    desc: '',
+    imgUrl: '',
+  },
+  {
+    name: 'MyCruloCards',
     hrefUrl: '',
     desc: '',
     imgUrl: '',

@@ -11,4 +11,10 @@ export default [
     desc: 'Next generation video and entertainment blockchain powered by you.',
     imgUrl: 'https://pbs.twimg.com/profile_images/932868157261225984/jxOQobOB_400x400.jpg',
   },
+  {
+    name: 'Passage3D',
+    hrefUrl: 'https://passage3d.com/',
+    desc: 'Passage is an accessible and customizable 3D world for video chat, presentations, collaboration, and e-commerce.',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1408524544038604804/fEhEsNdh_400x400.png',
+  },
 ]

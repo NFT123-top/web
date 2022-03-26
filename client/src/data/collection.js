@@ -37,7 +37,7 @@ export default [
     name: 'World of Women',
     hrefUrl: 'https://worldofwomen.art/',
     desc: 'A thriving community celebrating representation, inclusivity and equal opportunities for all.',
-    imgUrl: 'https://pbs.twimg.com/profile_images/1471897498948153347/qzZ2gR1L_400x400.png',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1507093987471077389/kXrAKZZB_400x400.png',
   },
   {
     name: 'Azuki',
