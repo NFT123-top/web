@@ -9,7 +9,7 @@ let imglogo = "../../img/logo-color-sm.svg"
 //   chainType:'../../img/category/eth.svg',
 //   imgUrl: "https://lh3.googleusercontent.com/lHexKRMpw-aoSyB1WdFBff5yfANLReFxHzt1DOj_sg7mS14yARpuvYcUtsyyx-Nkpk6WTcUPFoG53VnLJezYi8hAs0OxNZwlw6Y-dmI=s130",
 //   hrefUrl: 'https://opensea.io/collection/mutant-ape-yacht-club',
-//   imageAlt: 'The MUTANT APE YACHT CLUB is a collection of up to 20,000 Mutant Apes that can only be created by exposing an existing Bored Ape to a vial of MUTANT SERUM or by minting a Mutant Ape in the public sale.  '
+//   imageAlt: 'The MUTANT APof MUTng a Mutant Ape in the public sale.  '
 // }];
 
 

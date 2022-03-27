@@ -42,7 +42,7 @@ const overviewData =
 function Element(props) {
   const element = props.element;
   return (
-    <div className="flex flex-wrap border-2 rounded-md p-5 gap-5">
+    <div className="flex flex-wrap border-2 rounded-md p-5 gap-8">
       {/* <ChevronUpIcon className='bg-red-500 w-16 text-white rounded-full'></ChevronUpIcon> */}
       {
         element.map((item) => (

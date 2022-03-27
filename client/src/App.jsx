@@ -1,21 +1,38 @@
-import { Navbar, Welcome, Overview,  MarketList, CollectionList, Tools, Footer } from './components';
+import { Navbar, Welcome, Overview, MarketList, CollectionList, Tools, Footer } from './components';
+import { Router, Link } from "wouter";
+
+import useHashLocation from './hooks/WouterHash';
+import PageRouter from "./components/Router.jsx";
+
 import './index.css';
+
 
 function App() {
   return (
-    <div className="">
+    <Router hook={useHashLocation}>
       <div className="gradient-bg-welcome">
-        
-      <Navbar />
-      <Welcome />
+        <Navbar />
+        <Welcome />
       </div>
-      <Overview />
-      <MarketList />
-      <CollectionList first=" world" />
-      <Tools />
-      <br />
+      <main role="main" >
+        <div className="">
+          <PageRouter />
+        </div>
+      </main>
       <Footer />
-    </div>
+    </Router>
+    // <div className="">
+    //   <div className="gradient-bg-welcome">
+    //     <Navbar />
+    //     <Welcome />
+    //   </div>
+    //   <Overview />
+    //   {/* <MarketList />
+    //   <CollectionList first=" world" />
+    //   <Tools />
+    //   <br /> */}
+    //   <Footer />
+    // </div>
 
   )
 }

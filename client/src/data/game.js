@@ -24,16 +24,16 @@ export default [
     imgUrl: 'https://pbs.twimg.com/profile_images/1503581560133787648/5KJsJcFU_400x400.jpg',
   },
   {
-    name: '',
-    hrefUrl: '',
-    desc: '',
-    imgUrl: '',
+    name: 'Miniroyale',
+    hrefUrl: 'https://miniroyale.io/',
+    desc: ' Open economy FPS | First live multiplayer game on #Solana ',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1507358946419486743/CYbHv38r_400x400.jpg      ',
   },
   {
-    name: '',
-    hrefUrl: '',
+    name: 'StarSharks',
+    hrefUrl: 'https://starsharks.com/',
     desc: '',
-    imgUrl: '',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1446356205354500097/FLjJKQd0_400x400.jpg',
   },
   {
     name: '',

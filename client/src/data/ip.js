@@ -6,10 +6,10 @@ export default [
     imgUrl: '../../img/billionaires.jpg',
   },
   {
-    name: 'TIME',
-    hrefUrl: '',
-    desc: '',
-    imgUrl: '',
+    name: 'TIMEPieces',
+    hrefUrl: 'https://time.com/collection/timepieces-nft/',
+    desc: 'TIMEPieces is a NFT community initiative inclusive of four collections to date: Genesis, Inspiration, Long Neckie Women of the Year, and the newly announced, Slices of TIME.',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1484881066813005828/9XjVp4Ka_400x400.jpg',
   },
   {
     name: 'Adidas',
@@ -24,7 +24,7 @@ export default [
     imgUrl: '',
   },
   {
-    name: 'SUPERGUCCI',
+    name: 'SuperGUCCI',
     hrefUrl: 'https://superplastic.co/pages/gucci-supergucci',
     desc: '',
     imgUrl: '../../img/gucci.png',
