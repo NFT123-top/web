@@ -49,7 +49,7 @@ function Element(props) {
           <a href={item.hrefUrl} target="_blank">
             <div className="flex flex-col items-center w-12">
               <img className="hover:scale-110 rounded-full" src={item.imgUrl || defaultImg} alt="" />
-              <span className="text-gray-600 text-[12px] text-center font-thin h-4 overflow-hidden">{item.name}</span>
+              <span className="text-gray-600 text-[12px] text-center font-thin h-[18px] overflow-hidden">{item.name}</span>
             </div>
           </a>
         ))

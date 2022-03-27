@@ -18,10 +18,10 @@ export default [
     imgUrl: 'https://pbs.twimg.com/profile_images/1430994750585380872/v1fHlz0V_400x400.jpg',
   },
   {
-    name: '',
+    name: 'Realms',
     hrefUrl: '',
-    desc: '',
-    imgUrl: '',
+    desc: 'We are building a massively multiplayer on-chain game of Economics and Chivalry on StarkNet & Ethereum.',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1503581560133787648/5KJsJcFU_400x400.jpg',
   },
   {
     name: '',

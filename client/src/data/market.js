@@ -23,18 +23,18 @@ export default [
     imageAlt: ' ',
   },
   {
-    name: "X2Y2",
-    desc: 'The decentralized NFT marketplace.By the people, for the people.',
-    imgUrl: "https://pbs.twimg.com/profile_images/1482386069891198978/mMFwXNj8_400x400.jpg",
-    hrefUrl: 'https://x2y2.io/',
-    imageAlt: ' ',
-  },
-  {
     name: "MakersPlace",
     desc: 'Truly unique digital creations, by the World\'s Most Creative Minds.',
     imgUrl: "https://pbs.twimg.com/profile_images/1500879777678331904/iuH8Ir7l_400x400.jpg",
     hrefUrl: 'https://makersplace.com/',
     imageAlt: ' .',
+  },
+  {
+    name: "X2Y2",
+    desc: 'The decentralized NFT marketplace.By the people, for the people.',
+    imgUrl: "https://pbs.twimg.com/profile_images/1482386069891198978/mMFwXNj8_400x400.jpg",
+    hrefUrl: 'https://x2y2.io/',
+    imageAlt: ' ',
   },
   {
     name: 'Treasureland',
@@ -78,6 +78,12 @@ export default [
     imageAlt: ' ',
   },
   {
+    name: 'Immutable',
+    hrefUrl: 'https://market.immutable.com/',
+    desc: 'Ethereum\'s leading NFT scaling platform. Zero gas fees, 9K TPS & 100% carbon neutral.',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1318721028558745602/OhoqNIkd_400x400.jpg',
+  },
+  {
     name: 'Refinable',
     hrefUrl: 'https://refinable.com/',
     desc: 'Multichain NFT marketplace on Ethereum, BNBChain, Polygon and Solana',
@@ -91,13 +97,6 @@ export default [
     imageAlt: ' ',
   },
   {
-    name: "NBA Top Shot",
-    desc: 'Creators of the Cryptopunks, Autoglyphs and Meebits',
-    imgUrl: "https://pbs.twimg.com/profile_images/1473493606748942338/l-Q8oVDV_400x400.png ",
-    hrefUrl: 'https://nbatopshot.com/',
-    imageAlt: ' ',
-  },
-  {
     name: 'NFTrade',
     hrefUrl: 'https://nftrade.com',
     desc: 'NFTrade is the first cross-chain and blockchain-agnostic NFT platform',
@@ -108,12 +107,6 @@ export default [
     hrefUrl: 'https://superplastic.co/pages/nft',
     desc: 'World’s top creator of animated celebs, vinyl toys & digital collectibles.',
     imgUrl: 'https://pbs.twimg.com/profile_images/1222949749361446913/heoomUmu_400x400.jpg',
-  },
-  {
-    name: '',
-    hrefUrl: '',
-    desc: '',
-    imgUrl: '',
   },
   {
     name: '',

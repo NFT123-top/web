@@ -18,6 +18,13 @@ export default [
     imgUrl: 'https://pbs.twimg.com/profile_images/1468593325469048835/qpNWnDHN_400x400.png',
   },
   {
+    name: "NBA Top Shot",
+    desc: 'Creators of the Cryptopunks, Autoglyphs and Meebits',
+    imgUrl: "https://pbs.twimg.com/profile_images/1473493606748942338/l-Q8oVDV_400x400.png ",
+    hrefUrl: 'https://nbatopshot.com/',
+    imageAlt: ' ',
+  },
+  {
     name: 'Sorare',
     hrefUrl: '',
     desc: '',

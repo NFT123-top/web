@@ -48,10 +48,10 @@ export default [
     imgUrl: 'https://pbs.twimg.com/profile_images/1484240271118376973/eWKgi1pi_400x400.jpg',
   },
   {
-    name: '',
-    hrefUrl: '',
-    desc: '',
-    imgUrl: '',
+    name: 'BibliothecaDAO',
+    hrefUrl: 'https://bibliothecadao.xyz/',
+    desc: 'Bibliotheca graphs Loot projects so you can see your progress in the LootVerse.',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1505844592922402823/NhqJUWcg_400x400.jpg',
   },
   {
     name: '',
