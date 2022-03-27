@@ -59,10 +59,17 @@ export default [
     desc: '',
     imgUrl: '',
   },
-  {
-    name: 'Bitclout',
-    hrefUrl: '',
-    desc: '',
-    imgUrl: '',
-  },
+  // {
+  //   name: 'Bitclout',
+  //   hrefUrl: '',
+  //   desc: '',
+  //   imgUrl: '',
+  // },
+  // {
+  //   name: '',
+  //   hrefUrl: '',
+  //   desc: '',
+  //   imgUrl: '',
+  // },
+   
 ]

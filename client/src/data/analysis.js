@@ -17,4 +17,46 @@ export default [
     desc: 'Top NFT Floor Price by Trading Volume.',
     imgUrl: 'https://pbs.twimg.com/profile_images/1485204757321256960/V4sVUCJ2_400x400.png',
   },
+  {
+    name: '',
+    hrefUrl: '',
+    desc: '',
+    imgUrl: '',
+  },
+  {
+    name: '',
+    hrefUrl: '',
+    desc: '',
+    imgUrl: '',
+  },
+  {
+    name: '',
+    hrefUrl: '',
+    desc: '',
+    imgUrl: '',
+  },
+  {
+    name: '',
+    hrefUrl: '',
+    desc: '',
+    imgUrl: '',
+  },
+  {
+    name: '',
+    hrefUrl: '',
+    desc: '',
+    imgUrl: '',
+  },
+  {
+    name: '',
+    hrefUrl: '',
+    desc: '',
+    imgUrl: '',
+  },
+  {
+    name: '',
+    hrefUrl: '',
+    desc: '',
+    imgUrl: '',
+  },
 ]

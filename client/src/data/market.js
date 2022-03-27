@@ -109,4 +109,28 @@ export default [
     desc: 'World’s top creator of animated celebs, vinyl toys & digital collectibles.',
     imgUrl: 'https://pbs.twimg.com/profile_images/1222949749361446913/heoomUmu_400x400.jpg',
   },
+  {
+    name: '',
+    hrefUrl: '',
+    desc: '',
+    imgUrl: '',
+  },
+  {
+    name: '',
+    hrefUrl: '',
+    desc: '',
+    imgUrl: '',
+  },
+  {
+    name: '',
+    hrefUrl: '',
+    desc: '',
+    imgUrl: '',
+  },
+  {
+    name: '',
+    hrefUrl: '',
+    desc: '',
+    imgUrl: '',
+  },
 ];

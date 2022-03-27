@@ -47,10 +47,28 @@ export default [
     desc: 'NFT + DeFi powered app providing NFT hodlers with liquidity & traders w/ exposure to NFTs without directly purchasing the Asset.',
     imgUrl: 'https://pbs.twimg.com/profile_images/1390307103424741391/LUSKIIN3_400x400.jpg',
   },
-  {
-    name: '',
-    hrefUrl: '',
-    desc: '',
-    imgUrl: '',
-  },
+ {
+   name: '',
+   hrefUrl: '',
+   desc: '',
+   imgUrl: '',
+ },
+ {
+   name: '',
+   hrefUrl: '',
+   desc: '',
+   imgUrl: '',
+ },
+ {
+   name: '',
+   hrefUrl: '',
+   desc: '',
+   imgUrl: '',
+ },
+ {
+   name: '',
+   hrefUrl: '',
+   desc: '',
+   imgUrl: '',
+ },
 ]

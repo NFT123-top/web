@@ -42,14 +42,14 @@ const overviewData =
 function Element(props) {
   const element = props.element;
   return (
-    <div className="flex flex-wrap border-2 rounded-md p-8 gap-8">
+    <div className="flex flex-wrap border-2 rounded-md p-5 gap-5">
       {/* <ChevronUpIcon className='bg-red-500 w-16 text-white rounded-full'></ChevronUpIcon> */}
       {
         element.map((item) => (
           <a href={item.hrefUrl} target="_blank">
-            <div className="flex flex-col items-center w-14">
+            <div className="flex flex-col items-center w-12">
               <img className="hover:scale-110 rounded-full" src={item.imgUrl || defaultImg} alt="" />
-              <span className="text-gray-600 text-sm text-center font-thin h-6 overflow-hidden">{item.name}</span>
+              <span className="text-gray-600 text-[12px] text-center font-thin h-4 overflow-hidden">{item.name}</span>
             </div>
           </a>
         ))
@@ -62,7 +62,7 @@ function EachCell(props) {
   const cell = props.cell;
   return (
     <div className="flex flex-col items-center relative mx-2 my-4">
-      <h3 className='absolute -top-[18px] px-4 py-2 bg-slate-200 rounded-tl-md'>{cell.title}</h3>
+      <h3 className='absolute -top-[16px] px-4 py-1 bg-slate-200 rounded-md'>{cell.title}</h3>
       <Element element={cell.element}></Element>
     </div>)
 };
