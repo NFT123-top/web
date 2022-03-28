@@ -11,7 +11,7 @@ import logo from "../../img/logo-white-sm.svg"
 const navigation = [
   { name: 'Home', href: '/', current: false },
   { name: 'About', href: '/About', current: false },
-  { name: 'Template', href: '/Template', current: false },
+  { name: 'Template', href: '/Example', current: false },
   // { name: 'Calendar', href: '#', current: false },
 ];
 
@@ -32,8 +32,8 @@ const NavbarItem = ({item }) => (
 
 const Navbar = () => {
   return (
-    <div className="">
-      <nav className="flex-1 flex justify-between items-center py-3 px-6">
+    <div className="bg-[#006FF7]">
+      <nav className="flex-1 flex justify-between items-center pt-1 px-6">
         <div className="flex-shrink-0 flex items-center py-2 gap-1">
           <img className="block h-14 w-auto" src={logo} alt="nft123.top" />
           <p className="font-bold text-white">NFT123</p>

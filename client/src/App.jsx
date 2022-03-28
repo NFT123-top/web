@@ -10,10 +10,7 @@ import './index.css';
 function App() {
   return (
     <Router hook={useHashLocation}>
-      <div className="gradient-bg-welcome">
-        <Navbar />
-        <Welcome />
-      </div>
+      <Navbar />
       <main role="main" >
         <div className="">
           <PageRouter />

@@ -18,22 +18,19 @@ const Footer = () => {
             <span>Market</span>
             <span className=" text-gray-600 text-sm">Mdfet</span>
             <span className=" text-gray-600 text-sm">Markasdfet</span>
-            <span className=" text-gray-600 text-sm">Markasdfet</span>
-            <span className=" text-gray-600 text-sm">Marfet</span>
+       
           </div>
           <div className="grid grid-cols-1 place-content-start gap-2">
             <span>Market</span>
             <span className=" text-gray-600 text-sm">Markasdet</span>
             <span className=" text-gray-600 text-sm">Markfet</span>
-            <span className=" text-gray-600 text-sm">Madfet</span>
-            <span className=" text-gray-600 text-sm">Markasdfet</span>
+         
           </div>
           <div className="grid grid-cols-1 place-content-start gap-2">
             <span>Market</span>
             <span className=" text-gray-600 text-sm"><a href="#">Marsdfakasdfet</a></span>
             <span className=" text-gray-600 text-sm">Marsdfet</span>
-            <span className=" text-gray-600 text-sm">Markasdfet</span>
-            <span className=" text-gray-600 text-sm">Markasfet</span>
+       
           </div>
         </div>
       </div>

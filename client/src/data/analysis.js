@@ -18,10 +18,10 @@ export default [
     imgUrl: 'https://pbs.twimg.com/profile_images/1485204757321256960/V4sVUCJ2_400x400.png',
   },
   {
-    name: '',
-    hrefUrl: '',
-    desc: '',
-    imgUrl: '',
+    name: 'KingData',
+    hrefUrl: 'https://kingdata.com/nft/discover?lang=en',
+    desc: 'Be the first to invest in themost profitable liquidity pools w/ 24x7 monitoring alert! On-chain mining, futures, derivatives & 1K+ indicators! ',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1477107615654035462/y1RbGYB6_400x400.jpg',
   },
   {
     name: '',
