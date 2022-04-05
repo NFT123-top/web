@@ -36,10 +36,10 @@ export default [
     imgUrl: 'https://pbs.twimg.com/profile_images/1446356205354500097/FLjJKQd0_400x400.jpg',
   },
   {
-    name: '',
-    hrefUrl: '',
-    desc: '',
-    imgUrl: '',
+    name: 'Brawlers',
+    hrefUrl: 'https://www.bcbrawlers.com/',
+    desc: 'Blockchain Brawlers are coming to @wax_io. #MetaVerse #NFTs ready to #Play2Earn. #GameFi',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1455509514711670785/fuDdvI8Y_400x400.png',
   },
   {
     name: '',

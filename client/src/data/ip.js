@@ -13,9 +13,9 @@ export default [
   },
   {
     name: 'Adidas',
-    hrefUrl: '',
+    hrefUrl: 'https://www.adidas.com/into_the_metaverse',
     desc: '',
-    imgUrl: '',
+    imgUrl: '../../img/adidas.jpg',
   },
   {
     name: 'Pepsi Mic Drop',

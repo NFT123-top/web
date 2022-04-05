@@ -48,10 +48,10 @@ export default [
     imgUrl: 'https://pbs.twimg.com/profile_images/1390307103424741391/LUSKIIN3_400x400.jpg',
   },
  {
-   name: '',
-   hrefUrl: '',
-   desc: '',
-   imgUrl: '',
+   name: 'NFTb',
+   hrefUrl: 'https://nftb.io/',
+   desc: 'NFTb is the Complete Multi-Chain NFT & DeFi Platform for Communities   ',
+   imgUrl: 'https://pbs.twimg.com/profile_images/1384200472135835648/0fCfJDLk_400x400.jpg',
  },
  {
    name: '',

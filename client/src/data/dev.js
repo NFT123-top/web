@@ -17,4 +17,10 @@ export default [
     desc: 'The leading global prechain data platform 👩‍💻 Powering top protocols & traders ⛽ #1 in ETH gas estimation ⛓️ Support ETH BTC BSC FTM Polygon xDai',
     imgUrl: 'https://pbs.twimg.com/profile_images/1493586970550804483/lIbtd1gQ_400x400.jpg',
   },
+  {
+    name: 'infura',
+    hrefUrl: 'https://infura.io/',
+    desc: 'Our suite of high availability APIs and Developer Tools provide quick, reliable access to the Ethereum and IPFS networks so you can focus on building and scaling next generation software.',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1357501845145485316/yo6M6Y9u_400x400.jpg',
+  },
 ]

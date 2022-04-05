@@ -64,4 +64,16 @@ export default [
     desc: 'Find the rarity ranking of your next NFT!',
     imgUrl: 'https://pbs.twimg.com/profile_images/1386583814332305412/BeKFg2UJ_400x400.jpg',
   },
+  {
+    name: 'NFTBank',
+    hrefUrl: 'https://nftbank.ai/',
+    desc: 'NFTBank makes NFT portfolio management smart',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1484350292850544644/53Qa10b7_400x400.jpg',
+  },
+  {
+    name: 'Nansen',
+    hrefUrl: 'https://www.nansen.ai/',
+    desc: 'Nansen is a blockchain analytics platform that enriches on-chain data with millions of wallet labels. Crypto investors use Nansen to discover opportunities, perform due diligence and defend their portfolios with our real-time dashboards and alerts.',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1477941151797682177/-Bik1hBN_400x400.jpg',
+  },
 ]

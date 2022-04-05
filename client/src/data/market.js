@@ -45,7 +45,7 @@ export default [
   {
     name: "Rarible",
     desc: 'Multichain community-centric NFT marketplace.',
-    imgUrl: "https://pbs.twimg.com/profile_images/1486407481530200068/Cmt9k3gi_400x400.jpg",
+    imgUrl: "https://pbs.twimg.com/profile_images/1509222322573504514/PjcRVFYy_400x400.png",
     hrefUrl: 'https://rarible.com/',
     imageAlt: ' ',
   },
@@ -119,6 +119,12 @@ export default [
     hrefUrl: 'https://wax.atomichub.io/',
     desc: 'True ownership of digital goods. Buy, trade & create non-fungible tokens on the world\'s busiest #NFT marketplace. ',
     imgUrl: 'https://pbs.twimg.com/profile_images/1465485056974237706/_ZKkGGTQ_400x400.png',
+  },
+  {
+    name: 'Element',
+    hrefUrl: 'https://element.market/',
+    desc: 'The OpenSea competitor on Ethereum, BSC, and Polygon. BUY YOUR NFT HERE! #DAO #WEB3 for all.',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1478924431674130437/g7VwGe73_400x400.jpg',
   },
   {
     name: '',

@@ -54,10 +54,10 @@ export default [
     imgUrl: 'https://pbs.twimg.com/profile_images/1505844592922402823/NhqJUWcg_400x400.jpg',
   },
   {
-    name: '',
-    hrefUrl: '',
-    desc: '',
-    imgUrl: '',
+    name: 'Mobox',
+    hrefUrl: 'https://www.mobox.io/',
+    desc: 'MOBOX is a cross platform gaming metaverse that combines automated optimized DeFi yield farming & gaming NFTs to create a GameFi.',
+    imgUrl: 'https://pbs.twimg.com/profile_images/1348496192880009219/Gb-7S57t_400x400.jpg',
   },
   {
     name: '',
