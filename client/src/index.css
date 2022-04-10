@@ -1,68 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer components {
-  .btn-primary {
-    @apply py-2 px-4 text-white text-center text-sm rounded-full shadow-md hover:bg-blue-800 focus:outline-none focus:ring-2
-    focus:ring-blue-400 focus:ring-opacity-75;
-  }
-  .btn-second {
-    @apply py-2 px-4 bg-gray-600 text-white text-sm rounded-full shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2
-    focus:ring-blue-400 focus:ring-opacity-75;
-  }
-  .bg-card{
-    @apply transition-all bg-white
-  }
+.center-item {
+    text-align: center;
+    margin: auto;
 }
+
+.type-text {
+    padding: 3px;
+    text-align: center;
+    justify-content: center;
+}
+
 .gradient-bg-welcome {
-  height: 100%;
-  background-color:#FFF;
-  background-image:  url(../img/homebeijing.jpeg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
-.App {
-  text-align: center;
-  background-color: lightcyan;
-  ;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-button {
-  font-size: calc(10px + 2vmin);
+    height: 100%;
+    background-color: #FFF;
+    background-image: url(../img/homebeijing.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }

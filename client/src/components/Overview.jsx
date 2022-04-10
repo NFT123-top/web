@@ -22,21 +22,21 @@ const defaultImg = '../../img/logo-color-sm.svg'
 const overviewData =
 {
   marketCell: { id: 1, title: 'NFT Market', element: market },
-  infrastructureCell: { id: 1, title: 'Infrastructure', element: infrastructure},
+  infrastructureCell: { id: 1, title: 'Infrastructure', element: infrastructure },
   collectionCell: { id: 2, title: 'Collectibles', element: collection },
-  gameCell: { id: 2, title: 'Games', element:game },
+  gameCell: { id: 2, title: 'Games', element: game },
   socialCell: { id: 2, title: 'Socail', element: socail },
   sportsCell: { id: 2, title: 'Sport', element: sport },
   musicCell: { id: 2, title: 'Music', element: music },
-  artCell: { id: 2, title: 'Science & Art', element: art},
+  artCell: { id: 2, title: 'Science & Art', element: art },
   ipCell: { id: 2, title: 'Hot IP', element: ip },
-  utilityCell: { id: 2, title: 'Utility', element:tools},
+  utilityCell: { id: 2, title: 'Utility', element: tools },
   analysisCell: { id: 2, title: 'Analysis', element: analysis },
   defiCell: { id: 2, title: 'Defi', element: defi },
-  metaverseCell: { id: 2, title: 'Metaverse', element: metaverse},
-  eduCell:{id:44, title:'Learn', element: edu},
-  domainCell:{id:44, title:'Domain', element: domain},
-  devCell:{id:44, title:'Development', element: dev},
+  metaverseCell: { id: 2, title: 'Metaverse', element: metaverse },
+  eduCell: { id: 44, title: 'Learn', element: edu },
+  domainCell: { id: 44, title: 'Domain', element: domain },
+  devCell: { id: 44, title: 'Development', element: dev },
 };
 
 function Element(props) {
@@ -49,7 +49,7 @@ function Element(props) {
           <a href={item.hrefUrl} target="_blank">
             <div className="flex flex-col items-center w-12">
               <img className="hover:scale-110 rounded-full" src={item.imgUrl || defaultImg} alt="" />
-              <span className="text-gray-600 text-[12px] text-center font-thin h-[18px] overflow-hidden">{item.name}</span>
+              <span className="text-gray-600 text-[12px] text-center h-[18px] overflow-hidden">{item.name}</span>
             </div>
           </a>
         ))
@@ -69,54 +69,44 @@ function EachCell(props) {
 
 const Overview = () => {
   return (
-    <div className="mx-3 my-10">
-      <blockquote className="text-2xl font-semibold italic text-center p-6">
+    <div className="mx-3 mb-12">
+      <blockquote className="text-2xl font-semibold text-center p-6">
         The overview &nbsp;&nbsp;
         <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-rose-600 relative inline-block">
           <span className="relative text-white">NFT Ecosysytem</span>
         </span>
         &nbsp;&nbsp; for top projects
       </blockquote>
-      <div className="sm:grid sm:grid-cols-2">
+      <EachCell cell={overviewData.metaverseCell}></EachCell>
+      <div className="grid md:grid-cols-2">
         <EachCell cell={overviewData.marketCell}></EachCell>
         <EachCell cell={overviewData.collectionCell}></EachCell>
       </div>
-      <div className="sm:grid sm:grid-cols-5">
-        <div className="flex flex-col col-span-2">
-          <EachCell cell={overviewData.gameCell}></EachCell>
-          <EachCell cell={overviewData.musicCell}></EachCell>
-          <EachCell cell={overviewData.sportsCell}></EachCell>
-          <EachCell cell={overviewData.eduCell}></EachCell>
-        </div>
-        <div className="col-span-3">
-          <div className="flex flex-col">
-            <div className="">
-              <div className="flex flex-row justify-center">
-                <div className="flex flex-col justify-between">
-                  <EachCell cell={overviewData.socialCell}></EachCell>
-                  <EachCell cell={overviewData.defiCell}></EachCell>
-                </div>
-                <div className="flex flex-col">
-                  <div className="">
-                    <EachCell cell={overviewData.metaverseCell}></EachCell>
-                  </div>
-                  <div className="flex flex-row">
-                    <EachCell cell={overviewData.ipCell}></EachCell>
-                    <EachCell cell={overviewData.artCell}></EachCell>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-row justify-between">
-              <EachCell cell={overviewData.utilityCell}></EachCell>
-              <EachCell cell={overviewData.analysisCell}></EachCell>
-            </div>
-          </div>
-        </div>
+
+      <div className="grid md:grid-cols-3">
+        <EachCell cell={overviewData.gameCell}></EachCell>
+        <EachCell cell={overviewData.musicCell}></EachCell>
+        <EachCell cell={overviewData.sportsCell}></EachCell>
       </div>
-      <div className="sm:grid sm:grid-cols-3">
-        <EachCell cell={overviewData.infrastructureCell}></EachCell>
+
+      <div className="grid md:grid-cols-3">
+        <EachCell cell={overviewData.socialCell}></EachCell>
+        <EachCell cell={overviewData.ipCell}></EachCell>
+        <EachCell cell={overviewData.artCell}></EachCell>
+      </div>
+
+      <div className='grid md:grid-cols-2'>
         <EachCell cell={overviewData.domainCell}></EachCell>
+        <EachCell cell={overviewData.defiCell}></EachCell>
+      </div>
+
+      <div className=" grid md:grid-cols-2">
+        <EachCell cell={overviewData.utilityCell}></EachCell>
+        <EachCell cell={overviewData.analysisCell}></EachCell>
+      </div>
+
+      <div className="grid lg:grid-cols-2 md:grid-cols-2">
+        <EachCell cell={overviewData.infrastructureCell}></EachCell>
         <EachCell cell={overviewData.devCell}></EachCell>
       </div>
     </div>

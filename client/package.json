@@ -1,27 +1,28 @@
 {
-  "name": "nft123",
-  "private": true,
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "build:tailwinds": "tailwind build src/index.css -o public/style.css"
-  },
-  "dependencies": {
-    "@headlessui/react": "^1.5.0",
-    "@heroicons/react": "^1.0.6",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-icons": "^4.3.1",
-    "wouter": "^2.7.4",
-    "react-helmet-async": "^1.2.3"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^1.0.7",
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.7",
-    "tailwindcss": "^3.0.23",
-    "vite": "^2.8.0"
-  }
+    "name": "nft123",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "build:tailwinds": "tailwind build src/index.css -o public/style.css"
+    },
+    "dependencies": {
+        "@headlessui/react": "^1.5.0",
+        "@heroicons/react": "^1.0.6",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-helmet-async": "^1.2.3",
+        "react-icons": "^4.3.1",
+        "svgo": "^2.8.0",
+        "wouter": "^2.7.4"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^1.0.7",
+        "autoprefixer": "^10.4.2",
+        "postcss": "^8.4.7",
+        "tailwindcss": "^3.0.23",
+        "vite": "^2.8.0"
+    }
 }
