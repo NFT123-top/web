@@ -36,7 +36,7 @@ const Footer = () => {
       </div>
       <div className="pt-4 grid grid-cols-2 text-sm">
         <p>@aksdkfasd a2022</p>
-        <p>All rights reversed @company name</p>
+        <p>All rights reversed @company 1111</p>
       </div>
     </footer>
   );
