@@ -100,10 +100,10 @@ export default [
     imgUrl: '',
   },
   {
-    name: '',
-    hrefUrl: '',
-    desc: '',
-    imgUrl: '',
+    name: 'ww',
+    hrefUrl: 'z',
+    desc: 'zz',
+    imgUrl: 'zz',
   },
   {
     name: '',
