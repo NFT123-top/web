@@ -1,3 +1,3 @@
 # web
 It's nft123 website that everyone can review.
-ok ex 
+ok ex  1x
