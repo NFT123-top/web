@@ -4,3 +4,4 @@ ok ex  1x
 ss
 sw
 sx
+sz
