@@ -76,10 +76,10 @@ export default [
     imgUrl: '../../img/realm.svg',
   },
   {
-    name: '',
-    hrefUrl: '',
-    desc: '',
-    imgUrl: '',
+    name: 'Realms',
+    hrefUrl: 'https://bibliothecadao.xyz/realms',
+    desc: 'Each Realm has a map showing the regions, cities, rivers and topography that exist in the world.',
+    imgUrl: '../../img/realm.svg',
   },
   {
     name: '',
